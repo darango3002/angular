@@ -98,20 +98,54 @@ Create workspace:
 
 ```
 ng new [PROJECT NAME]
+cd [PROJECT NAME]
+```
+
+
+Create Components:
+```
+ng generate component [COMPONENT NAME]
+```
+Create Services:
+```
+ng generate service [SERVICE NAME]
+```
+Create Modules:
+```
+ng generate module [MODULE NAME]
 ```
 
 Run the application:
 
 ```
-cd [PROJECT NAME]
 ng serve
 ```
+This command will compile your application and launch a development server. You can access your application at http://localhost:4200 in your web browser.
 
 Angular is cross-platform, fast, scalable, has incredible tooling, and is loved by millions.
 
 ## Quickstart
 
 [Get started in 5 minutes][quickstart].
+
+## Best Practices and Recomendations
+Angular provides an official Style Guide that outlines best practices for coding in Angular. Adhering to this style guide ensures consistency and readability across your codebase, making it easier to maintain and collaborate with others.\
+
+Angular is built with TypeScript, so having a good understanding of TypeScript fundamentals such as classes, interfaces, types, and decorators will greatly benefit you.\
+
+Embrace Angular's component-based architecture by breaking down your application into components. Each component should be responsible for a single, well-defined task or UI element.\
+
+Use tools like Angular Performance Explorer to identify performance bottlenecks and optimize your application accordingly.\
+
+## Project Setup Best Practices
+Maintain consistent configuration across environments to avoid unexpected behavior.\
+  
+Utilize environment-specific variables for sensitive data (e.g., API keys, server URLs).\
+
+Enable build optimizations (e.g., AOT compilation, minification) for better performance in production builds.\
+
+Include configuration files (e.g., angular.json, environment files) in version control to ensure consistency across team members and environments.\
+
 
 ## Ecosystem
 
